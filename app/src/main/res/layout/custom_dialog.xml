@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/custom_dialog_shape">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/subscription"
+        android:textStyle="bold"
+        android:fontFamily="@font/subpeixes"
+        android:textSize="24sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_green_dark"/>
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/sub_text"
+        android:textColor="@android:color/black"
+        android:textSize="20sp"
+        android:textAlignment="center"/>
+    
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/subscribe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/subscribe"
+        android:textAllCaps="false"
+        android:layout_gravity="end"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_back"
+        android:textColor="@android:color/white"/>
+
+</LinearLayout>
